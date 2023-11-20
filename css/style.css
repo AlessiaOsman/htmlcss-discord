@@ -1,0 +1,153 @@
+/*Reser*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {}
+
+/*Generics*/
+
+header {
+    background-color: lightblue;
+    height: 100px;
+    padding: 20px 0;
+
+}
+
+footer {
+    height: 100px;
+    border-top: 1px solid white;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center
+}
+
+/*Utils*/
+
+.bg-color-yellow {
+    background-color: yellow
+}
+
+.bg-color-lightgrey {
+    background-color: lightgray
+}
+
+.bg-color-black {
+    background-color: black;
+}
+
+.border-dashed {
+    border: 1px dashed black;
+}
+
+.box {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center
+}
+
+.flex-basis-20 {
+    flex-basis: 20%;
+}
+
+.flex-basis-40 {
+    flex-basis: 40%;
+}
+
+.flex-basis-50 {
+    flex-basis: 50%;
+}
+
+.flex-basis-60 {
+    flex-basis: 60%;
+}
+
+
+
+/*Header*/
+
+.header-bar {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+/*Footer*/
+
+.footer-container {
+    width: 80%;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-element {
+    width: 150px;
+    height: 30px;
+    background-color: pink;
+}
+
+/*Main*/
+.min-h-sx {
+    min-height: 400px;
+}
+
+.min-h-m {
+    min-height: 500px;
+}
+
+
+.box-blue {
+    background-color: blue;
+}
+
+.box-blue div {
+    background-color: #E75480;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+}
+
+.main-box>div {
+    display: flex;
+}
+
+.column-pink {
+    background-color: lightpink;
+}
+
+.column-blue {
+    background-color: #007fff;
+}
+
+.box-big {
+    min-height: 600px;
+}
+
+.box-big div {
+    background-color: green;
+}
+
+.box-multicolumn>div {
+    display: flex;
+}
+
+.column-left {
+    flex-basis: 30%;
+    background-color: pink;
+}
+
+.column-right {
+    display: flex;
+    flex-basis: 70%;
+}
+
+.column-right div {
+    background-color: aquamarine;
+    flex-basis: 25%;
+}
