@@ -178,10 +178,6 @@ i {
     min-height: 400px;
 }
 
-.main-box {
-    justify-content: center;
-}
-
 .box-big>div {
     flex-direction: column;
     align-items: center;
