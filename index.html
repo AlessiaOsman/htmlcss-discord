@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Struttura Discord</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
-        <div class="header-bar">
-            <div class="logo flex-basis-20 bg-color-yellow border-dashed"></div>
-            <div class="nav flex-basis-40 bg-color-yellow border-dashed"></div>
-            <div class="login flex-basis-20 bg-color-yellow border-dashed"></div>
+        <div class="header-bar flex">
+            <div class="logo flex-basis-20">
+                <img src="img/logo.svg" alt="logo">
+            </div>
+            <div class="nav flex flex-basis-40">
+                <ul>
+                    <li>
+                        <a href="#">Scarica</a>
+                    </li>
+                    <li>
+                        <a href="#">Perchè Discord</a>
+                    </li>
+                    <li>
+                        <a href="#">Nitro</a>
+                    </li>
+                    <li>
+                        <a href="#">Assistenza</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login flex flex-basis-20">
+                <button class="primary-button">Accedi</button>
+            </div>
+        </div>
+        <div class="box header-bottom min-h-sx">
+            <div class="flex">
+                <h1>Il tuo posto per parlare</h1>
+                <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o
+                    semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più
+                    facile chiacchierare ogni giorno e chiacchierare più spesso.</p>
+                <div class="button-action flex">
+                    <button class="primary-button flex"><i class="fa-solid fa-arrow-down-long"></i>Scarica per Mac</button>
+                    <button class="secondary-button">Apri Discord nel tuo browser</button>
+                </div>
+            </div>
         </div>
     </header>
     <main>
-        <div class="box min-h-sx box-blue">
-            <div class="flex-basis-60"></div>
-        </div>
         <div class="box min-h-m main-box">
             <div class="flex-basis-50">
                 <div class="column-pink flex-basis-40 border-dashed"></div>
@@ -42,15 +75,15 @@
         <div class="box min-h-sx box-multicolumn bg-color-black">
             <div class="flex-basis-50">
                 <div class="column-left border-dashed"></div>
-                    <div class="column-right">
-                        <div class="border-dashed"></div>
-                        <div class="border-dashed"></div>
-                        <div class="border-dashed"></div>
-                        <div class="border-dashed"></div>
-                    </div>
+                <div class="column-right">
+                    <div class="border-dashed"></div>
+                    <div class="border-dashed"></div>
+                    <div class="border-dashed"></div>
+                    <div class="border-dashed"></div>
                 </div>
+            </div>
         </div>
-        
+
     </main>
     <footer class="bg-color-black">
         <div class="footer-container">
@@ -58,5 +91,6 @@
             <div class="footer-element border-dashed"></div>
         </div>
     </footer>
-    </body>
+</body>
+
 </html>
