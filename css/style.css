@@ -91,10 +91,6 @@ i {
     background-color: black;
 }
 
-.border-dashed {
-    border: 1px dashed black;
-}
-
 .box {
     padding: 80px 0;
     display: flex;
