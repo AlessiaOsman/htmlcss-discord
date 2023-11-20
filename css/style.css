@@ -50,9 +50,14 @@ button{
     padding: 10px;
     border-radius: 40px;
     border-color: transparent;
+    align-items: center;
 }
 
-h1, p{
+p{
+    line-height: 1.5;
+}
+
+h1, p, h2{
     margin-bottom: 20px;
 }
 
@@ -72,6 +77,11 @@ i{
     color: var(--color-white);
 }
 
+.tertiary-button{
+    background-color: purple;
+    color: var(--color-white);
+}
+
 .bg-color-lightgrey {
     background-color: lightgray
 }
@@ -85,7 +95,7 @@ i{
 }
 
 .box {
-    padding: 30px 0;
+    padding: 80px 0;
     display: flex;
     justify-content: center
 }
@@ -115,9 +125,7 @@ i{
 /*Header*/
 
 .header-bar {
-    height: 100%;
     justify-content: center;
-    align-items: center;
 }
 
 .login{
@@ -173,10 +181,6 @@ i{
     min-height: 500px;
 }
 
-.box-blue div {
-    background-color: #E75480;
-}
-
 .main-box {
     display: flex;
     justify-content: center;
@@ -186,20 +190,17 @@ i{
     display: flex;
 }
 
-.column-pink {
-    background-color: lightpink;
-}
-
-.column-blue {
-    background-color: #007fff;
-}
-
 .box-big {
     min-height: 600px;
 }
 
-.box-big div {
-    background-color: green;
+.box-big > div{
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-big p{
+    text-align: center;
 }
 
 .box-multicolumn>div {
